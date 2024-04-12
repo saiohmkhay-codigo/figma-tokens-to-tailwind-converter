@@ -1,11 +1,11 @@
 # Figma Tokens to Tailwind CSS Converter
 
-**This plugin converts map tokens to Tailwind CSS.**
+This plugin converts map tokens to Tailwind CSS.
 
 ## Requirements
 
-Seed Token JSON File
-Map Token JSON File
+- Seed Token JSON File
+- Map Token JSON File
 
 ## Flow & Guide
 
