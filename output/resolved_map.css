@@ -15,11 +15,11 @@
   --color-border-color-error-border: #ff4d4f;
   --color-border-color-error-border-hover: #ffa39e;
   --color-bg-color-bg-container: #ffffff;
-  --space-padding-padding-xxs: 4;
-  --space-padding-padding-xs: 8;
-  --space-padding-padding-sm: 12;
-  --space-padding-padding: 16;
-  --space-padding-padding-md: 20;
-  --border-radius-border-radius-xxs: 4;
-  --border-radius-border-radius-xs: 8;
+  --space-padding-padding-xxs: 4px;
+  --space-padding-padding-xs: 8px;
+  --space-padding-padding-sm: 12px;
+  --space-padding-padding: 16px;
+  --space-padding-padding-md: 20px;
+  --border-radius-border-radius-xxs: 4px;
+  --border-radius-border-radius-xs: 8px;
 }

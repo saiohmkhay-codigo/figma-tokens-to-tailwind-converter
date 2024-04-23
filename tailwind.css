@@ -620,13 +620,13 @@ video {
   --color-border-color-error-border: #ff4d4f;
   --color-border-color-error-border-hover: #ffa39e;
   --color-bg-color-bg-container: #ffffff;
-  --space-padding-padding-xxs: 4;
-  --space-padding-padding-xs: 8;
-  --space-padding-padding-sm: 12;
-  --space-padding-padding: 16;
-  --space-padding-padding-md: 20;
-  --border-radius-border-radius-xxs: 4;
-  --border-radius-border-radius-xs: 8;
+  --space-padding-padding-xxs: 4px;
+  --space-padding-padding-xs: 8px;
+  --space-padding-padding-sm: 12px;
+  --space-padding-padding: 16px;
+  --space-padding-padding-md: 20px;
+  --border-radius-border-radius-xxs: 4px;
+  --border-radius-border-radius-xs: 8px;
 }
 
 html, body {
@@ -639,26 +639,27 @@ html, body {
 
 .btn {
   display: inline-flex;
-  padding: var(--Space-Padding-paddingXXS, 4px) var(--Space-Padding-padding, 16px);
+  padding: var(--space-padding-padding-xxs) var(--space-padding-padding);
   justify-content: center;
   align-items: center;
-  border-radius: var(--Border-Radius-borderRadiusXXS, 4px);
+  border-radius: var(--border-radius-border-radius-xxs);
 }
 
 .btn-primary {
-  background: var(--Color-Brand-colorPrimary, #1677FF);
+  background: var(--color-brand-color-primary);
 }
 
 .btn-secondary {
-  border-radius: var(--Border-Radius-borderRadiusXXS, 4px);
-  border: 1px solid var(--Color-Border-colorBorder, #D9D9D9);
-  background: var(--Color-Bg-colorBgContainer, #FFF);
+  /* Border-Radius-borderRadiusXXS */
+  border-radius: var(--border-radius-border-radius-xxs);
+  border: 1px solid var(--color-border-color-border);
+  background: var(--color-bg-color-bg-container);
 }
 
 .btn-danger-secondary {
-  border-radius: var(--Border-Radius-borderRadiusXXS, 4px);
-  border: 1px solid var(--Color-Border-colorErrorBorder, #FF4D4F);
-  background: var(--Color-Bg-colorBgContainer, #FFF);
+  border-radius: var(--border-radius-border-radius-xxs);
+  border: 1px solid var(--color-border-color-error-border);
+  background: var(--color-bg-color-bg-container);
 }
 
 .sr-only {

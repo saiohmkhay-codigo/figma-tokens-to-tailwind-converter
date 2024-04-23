@@ -6,24 +6,25 @@ body {
 /* custom button  */
 .btn {
   display: inline-flex;
-  padding: var(--Space-Padding-paddingXXS, 4px) var(--Space-Padding-padding, 16px);
+  padding: var(--space-padding-padding-xxs) var(--space-padding-padding);
   justify-content: center;
   align-items: center;
-  border-radius: var(--Border-Radius-borderRadiusXXS, 4px);
-  
-  }
-  .btn-primary {
-  background: var(--Color-Brand-colorPrimary, #1677FF);
-  }
-  
-  .btn-secondary {
-  border-radius: var(--Border-Radius-borderRadiusXXS, 4px);
-  border: 1px solid var(--Color-Border-colorBorder, #D9D9D9);
-  background: var(--Color-Bg-colorBgContainer, #FFF);
-  }
-  
-  .btn-danger-secondary {
-  border-radius: var(--Border-Radius-borderRadiusXXS, 4px);
-  border: 1px solid var(--Color-Border-colorErrorBorder, #FF4D4F);
-  background: var(--Color-Bg-colorBgContainer, #FFF);
-  }
+  border-radius: var(--border-radius-border-radius-xxs);
+}
+
+.btn-primary {
+  background: var(--color-brand-color-primary);
+}
+
+.btn-secondary {
+  /* Border-Radius-borderRadiusXXS */
+  border-radius: var(--border-radius-border-radius-xxs);
+  border: 1px solid var(--color-border-color-border);
+  background: var(--color-bg-color-bg-container);
+}
+
+.btn-danger-secondary {
+  border-radius: var(--border-radius-border-radius-xxs);
+  border: 1px solid var(--color-border-color-error-border);
+  background: var(--color-bg-color-bg-container);
+}
