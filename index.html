@@ -5,13 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="tailwind.css" rel="stylesheet" />
   </head>
-  <body>
+  <body class="resolved_map-theme">
+    <!-- width: Hug (74px)px;
+height: Hug (30px)px;
+top: 40px;
+left: 40px;
+padding: var(--SpacePaddingpaddingXXS) var(--SpacePaddingpadding) var(--SpacePaddingpaddingXXS) var(--SpacePaddingpadding);
+gap: 0px;
+border-radius: var(--BorderRadiusborderRadiusXXS);
+opacity: 0px; -->
+
+
     <div class="p-8">
-      <h1 class="text-4xl font-bold mb-2">Figma → GitHub → Tailwind</h1>
-      <p class="text-xl text-theme-fg-muted mb-4">This example transforms tokens stored on GitHub to Style Dictionary ready files which in turn triggers TailwindCSS.</p>
-      <button class="p-2 bg-theme-accent-default text-theme-fg-onAccent font-bold" id="switch" onclick="toggleTheme()">Switch</button>
+      <h1 class="mb-2 text-4xl font-bold">Figma → GitHub → Tailwind</h1>
+      <p class="mb-4 text-xl text-theme-fg-muted">This example transforms tokens stored on GitHub to Style Dictionary ready files which in turn triggers TailwindCSS.</p>
+   <div class="flex flex-row gap-x-8">
+     <div>
+        
+      <h1>
+        Normal
+      </h1>
+      <button class="h-[30px] rounded-[4px] text-Color-Text-colorTextLightSolid  bg-Color-Brand-colorPrimary hover:bg-Color-Brand-colorPrimaryHover" id="switch" onclick="toggleTheme()">Button</button>
+   
+     </div>
+       
+  <div>
+    <h1>
+      Danger
+    </h1>
+    <button class="h-[30px] rounded-[4px] text-Color-Text-colorTextLightSolid  bg-Color-Error-colorError hover:bg-Color-Error-colorErrorHover" id="switch" onclick="toggleTheme()">Button</button>
+ 
+  </div>
+   </div>
     </div>
-    <script>
+    <!-- <script>
       function setTheme(name) {
         localStorage.setItem("theme", name);
         document.documentElement.className = name;
@@ -32,6 +59,6 @@
           setTheme("light-theme");
         }
       })();
-    </script>
+    </script> -->
   </body>
 </html>
