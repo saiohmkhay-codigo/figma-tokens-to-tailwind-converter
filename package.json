@@ -11,7 +11,6 @@
         "build-tw": "postcss ./styles.css -o ./tailwind.css",
         "format": "cd tokens && node format.js",
         "build": "npm run build-sd && npm run build-tw"
-
     },
     "dependencies": {
         "postcss-cli": "^9.0.1",

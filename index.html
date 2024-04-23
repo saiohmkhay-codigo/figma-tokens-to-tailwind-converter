@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="tailwind.css" rel="stylesheet" />
   </head>
-  <body class="resolved_map-theme">
+  <body>
     <!-- width: Hug (74px)px;
 height: Hug (30px)px;
 top: 40px;
@@ -25,17 +25,42 @@ opacity: 0px; -->
       <h1>
         Normal
       </h1>
-      <button class="h-[30px] rounded-[4px] text-Color-Text-colorTextLightSolid  bg-Color-Brand-colorPrimary hover:bg-Color-Brand-colorPrimaryHover" id="switch" onclick="toggleTheme()">Button</button>
+      <button class="h-[30px] btn btn-primary text-Color-Text-colorTextLightSolid  bg-Color-Brand-colorPrimary hover:bg-Color-Brand-colorPrimaryHover"  >Button</button>
    
      </div>
+
+     <div>
+        
+      <h1>
+        Primary
+      </h1>
+      <button class="h-[30px] btn text-Color-Brand-colorPrimary border "  >Button</button>
+   
+     </div>
+  
+     <div>
+      <h1>
+        Secondary
+      </h1>
+      <button class="h-[30px] btn btn-secondary text-Color-Text-colorTextSecondary"  >Button</button>
+    </div>
        
   <div>
     <h1>
       Danger
     </h1>
-    <button class="h-[30px] rounded-[4px] text-Color-Text-colorTextLightSolid  bg-Color-Error-colorError hover:bg-Color-Error-colorErrorHover" id="switch" onclick="toggleTheme()">Button</button>
- 
+    <button class="h-[30px] btn text-Color-Text-colorTextLightSolid  bg-Color-Error-colorError hover:bg-Color-Error-colorErrorHover"  >Button</button>
   </div>
+
+
+
+  <div>
+    <h1>
+      Secondary
+    </h1>
+    <button class="h-[30px] btn btn-danger-secondary text-Color-Error-colorError hover:text-Color-Error-colorErrorHover"  >Button</button>
+  </div>
+
    </div>
     </div>
     <!-- <script>
