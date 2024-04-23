@@ -13188,7 +13188,7 @@ html, body {
 .bg-Color-Brand-colorPrimary {
   background-color: var(--color-brand-color-primary, #1677ff);
 }
-
+/* custom button  */
 .btn {
 display: inline-flex;
 padding: var(--Space-Padding-paddingXXS, 4px) var(--Space-Padding-padding, 16px);
