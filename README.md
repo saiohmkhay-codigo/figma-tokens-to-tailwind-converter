@@ -22,5 +22,7 @@ To convert to **Tailwind CSS**, run:
 ```bash
 npm run build
 ```
-
+### After that If u want to check the demo
+pls open
+```index.html```
 After running the `build` command, check the tailwind.css file for the result.
